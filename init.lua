@@ -37,7 +37,7 @@ vim.keymap.set('n', '<leader>b', ':Ex<cr>')
 vim.keymap.set('n', '<leader>t', ':ToggleTerm size=50 direction=vertical<cr>')
 
 function SetBack(color)
-  color = color or "catppuccin-mocha"
+  color = color or "catppuccin-frappe"
   vim.cmd.colorscheme(color)
 
   vim.api.nvim_set_hl(0, "Normal", {bg = "none"})
