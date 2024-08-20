@@ -1,14 +1,16 @@
 # Pizza Makers Neovim Config
 
-## Keymapp
+## Keymap
 
 ```lua
-<leader>b  -- escape to netrw
-<leader>t  -- toggle terminal
-C-p        -- fuzzy find files
-<leader>fg -- grep search
-<Shift>k   -- show documentation
-<leader>n  -- show file tree
+'<leader>b'  -- escape to netrw
+'<leader>t'  -- toggle terminal
+'C-p'        -- fuzzy find files
+'<leader>fg' -- grep search
+'<Shift>k'   -- show documentation
+'<leader>n'  -- show file tree
+'<leader>vs' -- vertical split
+'<leader>hs' -- horizontal split
 ```
 
 ## Plugins
