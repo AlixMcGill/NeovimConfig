@@ -49,3 +49,4 @@ function SetBack(color)
   vim.api.nvim_set_hl(0, 'lineNrBelow', {fg="#7c7f93"})
 end
 SetBack()
+vim.cmd('Dashboard')
