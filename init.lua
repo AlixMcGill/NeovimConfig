@@ -1,11 +1,3 @@
-print("Welcome Back Alix :)")
-print("Use Space + n to open the file tree")
-print("Use Ctrl + p to fuzzy find files") 
-print("Use Space + f + g to grep search") 
-print("Use Ctrl + l to disable lua parser")
-print("Use Shift + k to so documentation")
-
-
 -- Bootstrap lazy.nvim
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not (vim.uv or vim.loop).fs_stat(lazypath) then
@@ -38,7 +30,7 @@ vim.keymap.set('n', '<leader>t', ':ToggleTerm size=50 direction=vertical<cr>')
 
 vim.keymap.set('n', '<leader>vs', ':vsplit')
 
-vim.keymap.set('n', '<leader>hs', ':hsplit')
+vim.keymap.set('n', '<leader>hs', ':split')
 
 function SetBack(color)
   color = color or "catppuccin-frappe"
