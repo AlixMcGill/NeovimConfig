@@ -7,8 +7,14 @@ return {
       config = function()
         require('catppuccin').setup({
           transparent_background = true,
-          all = {
-            text = '#f38aa8'
+          color_overrides = {
+              all = {
+                  text = '#f5e0db'
+              }
+          },
+          integrations = {
+              gitsigns = true,
+              treesitter = true
           }
         })
         vim.cmd.colorscheme "catppuccin-frappe"
