@@ -9,7 +9,9 @@ return {
           transparent_background = true,
           color_overrides = {
               all = {
-                  text = '#f5e0db'
+                  text = '#f5e0db',
+                  subtext1 = '#e5c890',
+                  subtext0 = '#babbf1'
               }
           },
           integrations = {
