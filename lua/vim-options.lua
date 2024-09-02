@@ -11,7 +11,7 @@ vim.keymap.set('n', 'C-l', ':TSDisable lua')
 
 vim.keymap.set('n', '<leader>b', ':Ex<cr>')
 
-vim.keymap.set('n', '<leader>t', ':ToggleTerm size=50 direction=vertical<cr>')
+vim.keymap.set('n', '<leader>t', ':ToggleTerm size=10 direction=horizontal<cr>')
 
 vim.keymap.set('n', '<leader>vs', ':vsplit')
 
